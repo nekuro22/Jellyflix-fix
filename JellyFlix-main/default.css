@@ -2363,3 +2363,17 @@ div:not(.paperList) .listItem {
 .layout-mobile #itemDetailPage .itemName.infoText.parentNameLast {
   text-shadow: none;
 }
+
+.layout-mobile #itemDetailPage .itemName.parentNameLast {
+  font-size: 1.2em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.layout-mobile #itemDetailPage .nameContainer {
+  font-size: 1.2em;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
+}
