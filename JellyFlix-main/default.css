@@ -2288,10 +2288,6 @@ div:not(.paperList) .listItem {
   background: transparent !important;
 }
 
-.layout-mobile #itemDetailPage .detailPageContent {
-  padding-top: 3.5em !important;
-}
-
 .layout-mobile #itemDetailPage div#itemBackdrop {
   display: none;
 }
@@ -2312,20 +2308,24 @@ div:not(.paperList) .listItem {
 }
 
 .layout-mobile #itemDetailPage .detailPagePrimaryContainer {
-  height: auto !important;
-  width: auto !important;
-  padding: inherit !important;
+  height: 100vh !important;
+  width: 100vw !important;
+  padding: 0 !important;
   z-index: auto;
   background: transparent;
 }
 
 .layout-mobile .detailPagePrimaryContainer.padded-left.padded-right.detailRibbon {
-  height: auto !important;
+  height: 100vh !important;
   z-index: auto;
   margin-top: 0 !important;
   overflow: visible;
-  align-content: flex-start;
   font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .layout-mobile #itemDetailPage .detailPagePrimaryContent {
