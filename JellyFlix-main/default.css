@@ -2288,6 +2288,10 @@ div:not(.paperList) .listItem {
   background: transparent !important;
 }
 
+.layout-mobile #itemDetailPage .detailPageContent {
+  padding-top: 3.5em !important;
+}
+
 .layout-mobile #itemDetailPage div#itemBackdrop {
   display: none;
 }
