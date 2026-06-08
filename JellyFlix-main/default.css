@@ -2319,6 +2319,27 @@ div:not(.paperList) .listItem {
   height: auto !important;
   z-index: auto;
   margin-top: 0 !important;
+  overflow: visible;
+}
+
+.layout-mobile #itemDetailPage .detailPagePrimaryContent {
+  font-size: 1em;
+  text-shadow: none;
+  width: auto;
+}
+
+.layout-mobile #itemDetailPage .infoText {
+  font-size: 1em;
+  width: auto;
+  margin: 0;
+  position: relative;
+}
+
+.layout-mobile #itemDetailPage .parentName {
+  font-size: 0.9em;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .layout-mobile #itemDetailPage .btnPlay,
@@ -2376,4 +2397,5 @@ div:not(.paperList) .listItem {
   overflow-wrap: break-word;
   word-wrap: break-word;
   white-space: normal;
+  width: 100%;
 }
