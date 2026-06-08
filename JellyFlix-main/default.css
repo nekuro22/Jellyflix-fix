@@ -2320,6 +2320,8 @@ div:not(.paperList) .listItem {
   z-index: auto;
   margin-top: 0 !important;
   overflow: visible;
+  align-content: flex-start;
+  font-size: 1em;
 }
 
 .layout-mobile #itemDetailPage .detailPagePrimaryContent {
